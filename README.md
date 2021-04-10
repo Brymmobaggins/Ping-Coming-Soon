@@ -17,7 +17,7 @@ This is solution to frontend mentor challenge [Ping coming soon page challenge o
 
 ### links
 
-- solution URL - <https://github.com/Brymmobaggins/Ping-coming-soon.git>
+- solution URL - <https://brymmobaggins.github.io/Ping-Coming-Soon>
 - live site URL -
 
 ## my process
