@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "libre franklin", sans-serif;
+  font-size: 20px;
+}
+main {
+  text-align: center;
+  margin: 60px auto;
+  max-width: 650px;
+  padding: 20px;
+}
+form {
+  display: flex;
+  margin-top: 50px;
+  position: relative;
+  text-align: left;
+  align-items: flex-start;
+}
+
+main h1 {
+  margin-top: 13px;
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+  font-size: 40px;
+}
+main h2 {
+  font-weight: 350;
+  font-size: 18px;
+  color: rgb(133, 133, 133);
+}
+form small {
+  content: "nnnnnnn";
+  color: hsl(354, 100%, 66%);
+  font-style: italic;
+  margin-left: 20px;
+  display: inline-block;
+  margin: 0 20px 40px;
+}
+.form-left {
+  flex: 0.7;
+}
+input {
+  width: 418px;
+  padding: 20px 25px;
+  font-size: 18px;
+  border: 1px solid hsl(223, 87%, 63%);
+  border-radius: 50px;
+  outline: none;
+  width: 100%;
+  margin-bottom: 15px;
+}
+input.error {
+  border-color: hsl(354, 100%, 66%);
+}
+input.error ::placeholder {
+  color: hsl(354, 100%, 66%);
+}
+
+::placeholder {
+  color: hsl(223, 87%, 63%);
+}
+
+form small {
+  color: hsl(354, 100%, 66%);
+  font-style: italic;
+  margin: 0px 20px 40px;
+  z-index: 100;
+  display: none;
+}
+button {
+  padding: 20px 0;
+  flex: 0.3;
+  font-size: 18px;
+  border-radius: 50px;
+  background-color: hsl(223, 87%, 63%);
+  border: none;
+  box-shadow: 0 5px 5px hsl(223, 100%, 88%);
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  margin-left: 15px;
+}
+button:hover {
+  opacity: 0.85;
+}
+.illustration {
+  margin: 30px 0;
+  width: 100%;
+}
+.s-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  list-style-type: none;
+}
+.s-list li {
+  margin: 10px;
+}
+.s-list li a {
+  border-radius: 50%;
+  border: 1px solid hsl(0, 0%, 59%);
+  color: hsl(215, 85%, 63%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  height: 40px;
+  width: 40px;
+  text-decoration: none;
+}
+.s-list li a:hover {
+  background-color: hsl(215, 85%, 63%);
+  border-color: hsl(215, 85%, 63%);
+  color: #fff;
+}
+
+footer p {
+  color: hsl(0, 0%, 59%);
+}
+
+@media screen and (max-width: 650px) {
+  form {
+    flex-direction: column;
+    text-align: center;
+  }
+  form small {
+    margin: 30px 20px;
+  }
+  .form-left {
+    width: 100%;
+  }
+  button {
+    margin-left: 0;
+    width: 100%;
+  }
+}
