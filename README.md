@@ -61,4 +61,4 @@ I will like to give a shoutout to Florin pop, Grace snow, and the frontend mento
 
 ## Screenshot
 
-[Project img](./images/PIngcomingsoon_screechsot.png)
+![Project img!](./images/PIngcomingsoon_screechsot.png)
