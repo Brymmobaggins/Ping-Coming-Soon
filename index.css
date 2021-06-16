@@ -102,12 +102,12 @@ button:hover {
 }
 .s-list li a {
   border-radius: 50%;
-  border: 1px solid hsl(0, 0%, 59%);
-  color: hsl(215, 85%, 63%);
+  border: 1px solid #969696;
+  color: #5093f1;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
+  font-size: 23px;
   height: 40px;
   width: 40px;
   text-decoration: none;

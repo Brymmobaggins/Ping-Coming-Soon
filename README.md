@@ -2,8 +2,6 @@
 
 This is solution to frontend mentor challenge [Ping coming soon page challenge on Frontend Mentor].
 
-## Overview
-
 ## The challenge
 
  Users should be able to:
@@ -17,10 +15,7 @@ This is solution to frontend mentor challenge [Ping coming soon page challenge o
 
 ### links
 
-- solution URL - <https://brymmobaggins.github.io/Ping-Coming-Soon>
-- live site URL -
-
-## my process
+- [Live](https://brymmobaggins.github.io/Ping-Coming-Soon)
 
 ## Built with
 
@@ -30,7 +25,7 @@ This is solution to frontend mentor challenge [Ping coming soon page challenge o
 - CSS grid
 - Vanilla JavaScript
 
-## What  i learned
+## What I learned
 
  ```HTML
  <input placeholder="enter your email">
@@ -52,7 +47,7 @@ function isValidEmail(email) {
 
 -[resource 1](stackoverflow.com) - This helps me understanding the Regular expression(Regex) function to check valid email in an input field
 -[resource 2](Googlefont.com) -  This assists me in getting the accurate font (libre frankin) for the project challenge.
--[resource 3](fontawesome.com) -  fontawesome library was cool, it is also assist me adding nice social media icons and styles.
+-[resource 3](fontawesome.com) -  fontawesome library was cool, it also assist me adding nice social media icons and styles.
 
 ## Author
 
@@ -62,3 +57,8 @@ function isValidEmail(email) {
 ## Acknowledgments
 
 I will like to give a shoutout to Florin pop, Grace snow, and the frontend mentor community for the inspiration and ideas given whilst on the challenge.
+
+
+## Screenshot
+
+[Project img](./images/PIngcomingsoon_screechsot.png)
