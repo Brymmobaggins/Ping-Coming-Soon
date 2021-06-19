@@ -1,7 +1,6 @@
-# Frontend Mentor - Ping coming soon page solution
+# Ping coming soon
 
-This is solution to frontend mentor challenge [Ping coming soon page challenge on Frontend Mentor].
-
+![Project img!](./../../myPortfolio/img/PIngComingSoon.png)
 ## The challenge
 
  Users should be able to:
@@ -13,7 +12,7 @@ This is solution to frontend mentor challenge [Ping coming soon page challenge o
 - The `input` field is empty. The message for this error should say *"Whoops! It looks like you forgot to add your email"*
 - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Please provide a valid email address"*
 
-### links
+### Links
 
 - [Live](https://brymmobaggins.github.io/Ping-Coming-Soon)
 
@@ -29,14 +28,15 @@ This is solution to frontend mentor challenge [Ping coming soon page challenge o
 
  ```HTML
  <input placeholder="enter your email">
-```CSS
- learnt how to import google font into CSS file
  ```
 
+>learnt how to import [Google font](Googlefont.com) into CSS file.
+ 
+```CSS
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400&display=swap");
+```
 
- ```js and the function
-
+ ```JavaScript
 function isValidEmail(email) {
     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
@@ -57,8 +57,3 @@ function isValidEmail(email) {
 ## Acknowledgments
 
 I will like to give a shoutout to Florin pop, Grace snow, and the frontend mentor community for the inspiration and ideas given whilst on the challenge.
-
-
-## Screenshot
-
-![Project img!](./images/PIngcomingsoon_screechsot.png)
