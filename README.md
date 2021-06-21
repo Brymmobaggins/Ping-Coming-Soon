@@ -1,6 +1,7 @@
 # Ping coming soon
 
-![Project img!](./../../myPortfolio/img/PIngComingSoon.png)
+![Project img!](/myPortfolio/img/PIngComingSoon.png)
+
 ## The challenge
 
  Users should be able to:
@@ -30,8 +31,9 @@
  <input placeholder="enter your email">
  ```
 
->learnt how to import [Google font](Googlefont.com) into CSS file.
- 
+>>learnt how to import [Google font](Googlefont.com) into CSS file.
+
+
 ```CSS
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400&display=swap");
 ```
@@ -45,9 +47,9 @@ function isValidEmail(email) {
 
 ### Useful resources
 
--[resource 1](stackoverflow.com) - This helps me understanding the Regular expression(Regex) function to check valid email in an input field
--[resource 2](Googlefont.com) -  This assists me in getting the accurate font (libre frankin) for the project challenge.
--[resource 3](fontawesome.com) -  fontawesome library was cool, it also assist me adding nice social media icons and styles.
+- [Stackoverflow](stackoverflow.com) - This helps me understanding the Regular expression(Regex) function to check valid email in an input field.
+- [Google-font](Googlefont.com) -  This assists me in getting the accurate font (libre frankin) for the project challenge.
+- [fontawesome](fontawesome.com) -  fontawesome library was cool, it also assist me adding nice social media icons and styles.
 
 ## Author
 
