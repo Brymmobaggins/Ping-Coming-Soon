@@ -1,7 +1,6 @@
-# Ping coming soon
+# Project Preview
 
-![Project img](../../IbrahimBakare/img/PIngComingSoon.png)
-
+[project img](../../IbrahimBakare/img/PIngComingSoon.png)
 ## Links
 
 [Live](https://brymmobaggins.github.io/Ping-Coming-Soon)
