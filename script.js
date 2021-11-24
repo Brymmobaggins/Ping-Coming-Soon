@@ -14,8 +14,7 @@ form.addEventListener('submit', e => {
         email.classList.add('error');
         small.innerText = 'email field cannot be blank!';
         small.style.display = 'inline-block';
-
-
+        
     } else if (!isValidEmail(emailValue)) {
         // says its invalid
         email.classList.add('error');
